@@ -384,7 +384,7 @@ const LoginPage = () => {
         <div className="glass-hint-panel">
           <ShieldCheck size={18} />
           <span>
-            Gunakan akun bawaan sistem untuk uji coba. NIM: <strong>24090103</strong> atau Password: <strong className="pass">password123</strong>.
+            Gunakan akun bawaan sistem untuk uji coba. NIM: <strong>24090103</strong> atau Password: <strong className="pass">24090103</strong>.
           </span>
         </div>
       </div>
