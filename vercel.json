@@ -1,1 +1,12 @@
-{"experimentalServices":{"frontend":{"root":"frontend","routePrefix":"/","framework":"vite"},"backend":{"root":"backend","routePrefix":"/backend","runtime":"@vercel/node","entrypoint":"index.js"}}} 
+{
+  "rewrites": [
+    {
+      "source": "/backend/(.*)",
+      "destination": "/backend/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/frontend/$1"
+    }
+  ]
+}
